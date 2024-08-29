@@ -1,0 +1,34 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,23,72,1) 46%, rgba(42,0,57,1) 100%);
+    display: flex;
+  justify-content: center;
+   
+}
+.cc{
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+    width: 100%;
+    height: 300px;
+    opacity: 0.6;
+    position: relative;
+}
+.cc:hover{
+    border: white 2px solid;
+    opacity: 1;
+}
+.cap {
+    color: #BAA7A7;
+    font-size: 6vw;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 15px;
+  }
+.cc:hover .cap{
+    visibility: visible; opacity: 1;
+  }
